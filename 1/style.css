@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  background-color: rgb(235, 235, 217);
+}
+.flex2 {
+  display: flex;
+  margin: auto;
+  max-width: 432px;
+  max-height: 399px;
+  border-radius: 25px;
+  background-color: #fff;
+  border: solid black;
+}
+.flex1 {
+  display: flex;
+  margin: auto;
+  margin: 65px;
+  align-items: center;
+  flex-direction: column;
+  border: solid black;
+}
+p {
+  display: flex;
+  text-align: center;
+  width: 255px;
+}
+.boton1 {
+  display: flex;
+  justify-content: center;
+  background-color: #ed6755;
+  height: 40px;
+  width: 160px;
+  border-radius: 5px;
+}
+.b1 {
+  background-color: #ed6755;
+  border: none;
+  color: #fff;
+}
+.esc1 {
+  border: solid black;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+}

@@ -53,6 +53,9 @@
   font-weight: 100;
   color: rgba(175, 175, 175, 0.752);
 }
+.botonesc:hover {
+  cursor: pointer;
+}
 /* para el contenedor del <p> del primer cuadro */
 .p {
   text-align: center;

@@ -91,10 +91,10 @@ p {
   border-radius: 5px;
 }
 /*hover:manito para los botones ok*/
-.botonok :hover {
+.botonok:hover {
   cursor: pointer;
 }
-.botonok2 :hover {
+.botonok2:hover {
   cursor: pointer;
 }
 /*cuadro de arriba,bajo la imagen para terminar de centrar*/

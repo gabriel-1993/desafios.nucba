@@ -46,10 +46,11 @@
 }
 /* ACHICO DIV DE H3 PARA ACOMODAR TEXTO Y LE DOY DISTANCIA CON LA LISTA*/
 h3 {
-  max-width: 290px;
+  max-width: 298px;
   color: #151a41;
   font-weight: 700;
   margin-bottom: 30px;
+  text-align: start;
 }
 /*LISTA 12345*/
 .lista {
@@ -79,6 +80,7 @@ h3 {
 
 /* CAJA DE AMBOS SPAN, LOS ACOMODO EN FILA*/
 .cajaspan {
+  font-weight: 500;
   margin-top: 8px;
   margin-bottom: 25px;
   display: flex;

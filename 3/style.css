@@ -3,18 +3,140 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 .contenedor {
   width: 100%;
-  height: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: beige;
+  background-color: rgb(209, 209, 195);
 }
 .cuadro {
+  border-radius: 20px;
+  background-color: #fff;
   height: 928px;
   width: 859px;
-  border: black solid;
+}
+.titulox {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 27px;
+  padding: 35px 35px 35px 35px;
+  background-color: #203774;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.x {
+  font-size: 35px;
+  font-weight: 500;
+  border: none;
+  background-color: #203774;
+  color: #fff;
+}
+.mini1 {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+/*tamaño a los <  >*/
+.span1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(204, 194, 194);
+  font-size: 50px;
+  font-weight: 700;
+}
+.span3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+/*Sep.24 hoy*/
+.sep24 {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+}
+.fecha {
+  font-size: 40px;
+  font-weight: 700;
+}
+.dia {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.mini2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 270px;
+  width: 550px;
+  padding: 30px;
+  color: #fff;
+  background-color: #203774;
+
+  border-radius: 20px;
+}
+.ladoizquierdo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.divespecialidad {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.especialidad {
+  font-size: 40px;
+  font-weight: 900;
+}
+.horario {
+  font-size: 25px;
+}
+.doc {
+  font-size: 25px;
+}
+.turno {
+  padding: 20px 35px;
+  font-size: 25px;
+  font-weight: 900;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #203774;
+}
+/*solo foto*/
+.fotito {
+  height: 60px;
+  border-radius: 50%;
+  border: solid #4868bd 5px;
+}
+.doc {
+  padding-left: 10px;
+  padding-top: 16px;
+}
+.divfoto {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 30p 0;
+}
+.encuadreturnos {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 30px;
 }

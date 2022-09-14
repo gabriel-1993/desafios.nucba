@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-
+  color: rgb(2, 2, 15);
   box-sizing: border-box;
   text-decoration: none;
   border: none;
@@ -14,7 +14,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid black;
 }
 .contenedor2 {
   background-color: rgb(233, 222, 222);
@@ -27,33 +26,64 @@
 .divplanes {
   display: flex;
   align-items: center;
-  gap: 50px;
   height: 70%;
   width: 77%;
   border-radius: 20px;
   background-color: #fff;
+  box-shadow: 0px 7px 2px;
+  color: gray;
 }
-.divfree {
-  border: solid red;
+.divopc {
   padding-left: 20px;
   height: 80%;
-  width: 40%;
+  width: 71%;
 }
 .tit {
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .divprecio {
+  margin-top: 25px;
+  margin-bottom: 18px;
   display: flex;
-  border: solid red;
-  align-items: flex-end;
+
+  align-items: baseline;
 }
 .signo {
-  font-size: 20px;
+  font-size: 22px;
 }
 .precio {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-ends;
-  font-size: 30px;
+  font-size: 40px;
+}
+.info1 {
+  font-size: 12px;
+}
+.info2 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.boton1 {
+  background-color: deeppink;
+  font-size: 14px;
+  padding: 12px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton2 {
+  cursor: pointer;
+  background-color: aqua;
+  font-size: 14px;
+  padding: 12px 12px;
+  border-radius: 5px;
+  margin-top: 19px;
+}
+.boton3 {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 16px 8px;
+  border-radius: 5px;
+  cursor: pointer;
 }

@@ -67,7 +67,7 @@
 .boton1 {
   background-color: deeppink;
   font-size: 14px;
-  padding: 12px 8px;
+  padding: 12px 17px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -83,7 +83,7 @@
   background-color: #000;
   color: #fff;
   font-size: 14px;
-  padding: 16px 8px;
+  padding: 12px 17px;
   border-radius: 5px;
   cursor: pointer;
 }

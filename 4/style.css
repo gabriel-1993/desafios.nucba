@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(217, 214, 214);
+}
+.cuadro {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  height: 458px;
+  border-radius: 10%;
+  background-color: #fff;
+  box-shadow: 0px 7px 25px;
+}
+.fotodiv {
+  border: solid #fcfbf9 14px;
+  border-radius: 20%;
+  background-image: url(./foto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+  width: 160px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.logo {
+  height: px;
+}
+.tit {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.infodiv {
+  color: midnightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  width: auto;
+  text-align: center;
+  margin: 7px 110px;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+.seguir {
+  background-image: linear-gradient(to right, #fa3967, #fa9639);
+  width: 190px;
+  height: 60px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.mensaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #eeeae3;
+  width: 190px;
+  height: 60px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  gap: 8px;
+}
+.botonesdiv {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  margin-top: ;
+}
+.agregar {
+  height: 45px;
+}
+.msj {
+  height: 23px;
+}

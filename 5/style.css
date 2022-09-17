@@ -87,3 +87,82 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  .divplanes {
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    overflow: auto;
+    gap: 80px;
+    padding: 10px 0;
+  }
+
+  .divprecio {
+    margin: 0 0;
+  }
+  .divopc {
+    height: 100%;
+    width: 90%;
+  }
+  .tit {
+    font-size: 80px;
+  }
+
+  .signo {
+    font-size: 35px;
+  }
+  .precio {
+    font-size: 50px;
+  }
+  .info1 {
+    font-size: 25px;
+  }
+  .info2 {
+    font-size: 35px;
+  }
+
+  .boton1 {
+    font-size: 30px;
+    padding: 22px 27px;
+  }
+  .boton2 {
+    font-size: 30px;
+    padding: 22px 27px;
+  }
+  .boton3 {
+    font-size: 30px;
+    padding: 22px 27px;
+  }
+}
+
+@media (max-width: 576px) {
+  .divplanes {
+    gap: 40px;
+  }
+  .tit {
+    font-size: 55px;
+  }
+
+  .signo {
+    font-size: 25px;
+  }
+  .precio {
+    font-size: 35px;
+  }
+  .info1 {
+    font-size: 17px;
+  }
+  .info2 {
+    font-size: 19px;
+  }
+  .boton1 {
+    font-size: 20px;
+  }
+  .boton2 {
+    font-size: 20px;
+  }
+  .boton3 {
+    font-size: 20px;
+  }
+}

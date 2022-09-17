@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.contenedor {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  border: solid;
+}
+.cuadro {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 2px 25px 7px hsl(240, 73%, 65%);
+  height: 65%;
+  width: 65%;
+  border-radius: 20px;
+}
+.divizq {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+}
